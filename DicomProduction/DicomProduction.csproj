@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="fo-dicom.json" Version="4.0.7" NoWarn="NU1701" />
+    <PackageReference Include="Microsoft.Health.Dicom.Api" Version="1.0.127" />
+    <PackageReference Include="Microsoft.Health.Dicom.Blob" Version="1.0.127" />
+    <PackageReference Include="Microsoft.Health.Dicom.Metadata" Version="1.0.127" />
+    <PackageReference Include="Microsoft.Health.Dicom.SqlServer" Version="1.0.127" />
+  </ItemGroup>
+</Project>
