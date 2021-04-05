@@ -6,6 +6,8 @@
 
   <ItemGroup>
     <PackageReference Include="fo-dicom.json" Version="4.0.7" NoWarn="NU1701" />
+    <PackageReference Include="Microsoft.Azure.KeyVault" Version="3.0.5" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.AzureKeyVault" Version="3.1.13" />
     <PackageReference Include="Microsoft.Health.Dicom.Api" Version="1.0.127" />
     <PackageReference Include="Microsoft.Health.Dicom.Blob" Version="1.0.127" />
     <PackageReference Include="Microsoft.Health.Dicom.Metadata" Version="1.0.127" />
